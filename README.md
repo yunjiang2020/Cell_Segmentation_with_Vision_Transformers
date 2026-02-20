@@ -126,9 +126,9 @@ Pixel-level:
 
 Instance-level:
 
-* MAE (cell count error)
-* F1
-* mAP
+* MAE (cell count error per field)
+* F1 (IoU @0.5)
+* mAP (IoU @0.5)
 
 ---
 
@@ -140,7 +140,9 @@ Instance-level:
 | ------ | ------------- | -------------- |
 | Dice   | 0.9517        | 0.8995         |
 | IoU    | 0.9084        | 0.8185         |
-| F1     | 0.5458        | 0.76461        |
+| MAE    | 23.5786       | 6.5849         |
+| F1     | 0.5458        | 0.7646         |
+| mAP    | 0.4212        | 0.6972         |
 
 ### Key Observations from Validation Results
 
